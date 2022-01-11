@@ -1,6 +1,6 @@
 # ClimateChange
 
-SAVE THE PLANET,SAVE OURSELVERS is a website created using HTML, CSS, and JavaScript with the mission 
+SAVE THE PLANET,SAVE OURSELVES is a website created using HTML, CSS, and JavaScript with the mission 
 to be an informative and interactive platform where users can educate themselves on climate change, take a quiz to test their knowledge of environmental issues, 
 and find resources for taking action. 
 
