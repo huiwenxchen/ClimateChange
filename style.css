@@ -1,0 +1,394 @@
+/* general */
+body {
+  background-color: #F0FFEE;
+  
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  
+}
+
+@media (max-width: 600px) 
+{
+  .navbar{
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 360px){
+  .navbar{
+    flex-direction: column;
+  }
+}
+h4 {
+  font-family: 'Andika', sans-serif;
+  font-size: 12pt;
+  margin: 20px;
+  color: #B0CC99;
+}
+
+/* navbar style */
+a {
+    color: #B0CC99;
+    text-decoration: none;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar a:hover {
+  	color:#293C1A;        
+}
+
+
+/* general */
+h2 {
+  font-family: 'Andika', sans-serif;
+  font-size: 14pt;
+  color: #677E52;
+}
+
+h3 {
+  font-family: 'Aclonica', sans-serif;
+  color: #ffffff;
+  font-size: 18pt;
+  font-weight: extra-bold;
+}
+
+@media (max-width: 300px){
+  h3{
+    font-size: 14px;
+  }
+}
+
+/* home */
+.sitename  {
+  font-family: 'Aclonica', sans-serif;
+  font-size: 64pt;
+  color: #293C1A; 
+  
+}
+
+@media (max-width: 600px){
+  .sitename{
+    font-size: 48px;
+  }
+}
+
+
+.home {
+   padding-left: 3%;
+}
+.Getstarted{
+  font-family: 'Aclonica', sans-serif;
+  font-size: 48pt;
+  color: #293C1A; 
+  padding-left: 3%;
+}
+
+@media (min-width: 600px){
+  .divflex{
+    display: inline; 
+  }
+}
+
+.page-description {
+  background-color: #B0CC99;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1100px) {
+  .page-description {
+    flex-wrap: wrap;
+  }
+}
+.contentbox {text-align: center;}
+
+@media (max-width: 700px) {
+  .page-description {
+    flex-direction: column;
+  }
+  
+}
+
+
+@media (max-width: 400px) {
+  .page-description {
+    padding: 10px;
+  }
+  .sitename, .Getstarted {
+    font-size: 36px;
+  }
+  
+}
+
+.begin{
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+  
+
+button {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border:none;
+  color: #92C9E8;
+  padding: 20px 32px;
+  text-align: center;
+  font-family: 'Andika', sans-serif;
+  font-size: 20px;
+}
+
+.begin img {
+  display: block;
+  margin-left: auto;
+ 	margin-right: auto;    
+  border-radius: 5%;
+  height: 400px;
+  width: 400px;
+}
+
+.page-description img {
+  display: block;
+  margin-left: auto;
+ 	margin-right: auto;    
+  border-radius: 5%;
+  height: 300px;
+  width: 300px;
+}
+
+button:hover {
+  background-color:#E4EBEF;
+}
+
+
+/* general */
+footer{
+  background-color: #9FB997;
+  padding: 5%;
+  font-family: 'Andika', sans-serif;
+  color: #ffffff;
+  font-size: 16pt;
+  font-weight: bold;
+  margin-top:5%;
+}
+
+.darkmode {
+  display: inline-block;
+  background-color: #8899a6;
+  margin-left: 3%;
+  padding: 5px;
+  font-size:10pt;
+  border-radius: 5px;
+  font-family: 'Andika', sans-serif;
+  color: #45525D; 
+
+
+}
+
+.title {
+  font-family: 'Aclonica', sans-serif;
+  font-size: 18pt;
+  color: #293C1A;
+  margin-left: 3%;
+}
+
+
+ li, #choices, .results  {
+  color: #45525D; 
+  font-family: 'Andika', sans-serif;
+}
+
+/* learning page */
+.contentflex {
+  padding: 20px;
+  display: flex;
+  background-color:#92C9E8;
+  margin: 30px;
+  border-radius: 15px;
+}
+
+@media (max-width: 800px){
+  .contentflex {
+    flex-direction: column;
+  }
+  .contentflex li{
+    font-size: 12px;
+  }
+  .contentflex h3{
+    font-size: 20px;
+  }
+}
+.main-content-learning{
+  background-image: url("https://images.pexels.com/photos/1147124/pexels-photo-1147124.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+
+  padding: 30px;
+
+}
+
+/* quiz style */
+.welcome-quiz {
+  background-image: url("https://img.freepik.com/free-vector/watercolor-back-school-background-with-white-space_52683-41450.jpg?size=626&ext=jpg");
+  text-align: center;
+  padding: 3%;
+  font-family: 'Aclonica', sans-serif;
+  font-size: 64pt;
+  color: #45525D; 
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+
+@media (max-width: 600px) {
+  .welcome-quiz{
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 300px) {
+  .welcome-quiz {
+    font-size: 36px;
+  }
+}
+
+.questionbox {
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color:#9FB997;
+  border-radius: 20px;
+  padding: 5%;
+  
+}
+.quiz-question {
+  color: #293C1A;
+}
+ 
+.questionbox img {
+  display: block;
+  margin-left: auto;
+ 	margin-right: auto;    
+  border-radius: 5%;
+  height: 60%;
+  width: 80%;
+}
+
+@media (max-width: 600px){
+  .questionbox{
+    margin: auto;
+  }
+}
+
+.recycling {
+  font-family: 'Aclonica', sans-serif;
+  font-size: 32pt;
+  color: #45525D;
+
+}
+
+/* learning page */
+.main-content-learning{
+  background-image: url("https://images.pexels.com/photos/1147124/pexels-photo-1147124.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+
+  padding: 30px;
+
+}
+
+ul {
+  list-style-type: square;
+  color: #677E52 ;
+  font-size: 18pt ;
+  font-family: 'Andika', sans-serif ;
+  }
+
+
+/* take action page */
+
+
+/* .welcome-takeaction{
+  background-image: url("https://www.openglobalrights.org/userfiles/image/Daza_Image_19_12_03-01.jpg");
+  text-align: center;
+  padding: 3%;
+  font-family: 'Aclonica', sans-serif;
+  font-size: 64pt;
+  color: #293C1A;
+  background-repeat: no-repeat;
+  background-size: cover; 
+
+} */
+
+.maintakeaction{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #92C9E8;
+  font-family: 'Andika', sans-serif;
+  font-size: 14pt;
+  color: #45525D;
+  border-radius: 15px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+@media (max-width:900px){
+  .minitakeaction{
+    flex-direction: column;
+  }
+}
+
+
+
+
+#actionitems {
+  background-color: white;
+  justify-content: space-between;
+  font-family: 'Andika', sans-serif;
+  font-size: 14pt;
+  color: #677E52;
+  border-radius: 15px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.actiondescription{
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* .civicengagement{
+  display: flex;
+  flex-direction: row wrap;
+  justify-content: space-between;
+  
+} */
+
+.communityinvolvement, .civicengagement, .individualaction{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  word-wrap: break-word;
+  justify-content: space-evenly;
+  padding: 3%;
+  margin: 30px;
+
+}
+
+
+.actionitems img {
+  display: block;
+  margin-left: auto;
+ 	margin-right: auto;    
+  border-radius: 5%;
+  height: 300px;
+  width: 300px;
+}
